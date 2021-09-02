@@ -26,6 +26,11 @@ library:
   source-dirs: src
   ghc-options: -Wall
 
+default-extensions:
+  - StrictData
+  - RecordWildCards
+  - DerivingStrategies
+
 tests:
   bike-geo-test:
     main:                Spec.hs
